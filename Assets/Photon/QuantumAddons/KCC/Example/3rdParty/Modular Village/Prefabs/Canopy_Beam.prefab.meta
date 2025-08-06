@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 31c79477314554445ab4e6a110442165
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Canopy_Beam.prefab
+  uploadId: 738645

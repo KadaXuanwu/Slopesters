@@ -1,0 +1,8 @@
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAddons/KCC/Example/Scripts/View/Generated")]
+component Player
+{
+    FP JumpForce;
+
+    [HideInInspector]
+    PlayerRef PlayerRef;
+}

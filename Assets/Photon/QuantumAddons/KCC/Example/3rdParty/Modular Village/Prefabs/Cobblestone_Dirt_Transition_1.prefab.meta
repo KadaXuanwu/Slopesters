@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2d26ee957e303684e88db55dbc6d9ac3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Cobblestone_Dirt_Transition_1.prefab
+  uploadId: 738645

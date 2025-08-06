@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6805558f14ad44d4db4c98d7e4c43417
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Prop_Flower_Tulip.prefab
+  uploadId: 738645

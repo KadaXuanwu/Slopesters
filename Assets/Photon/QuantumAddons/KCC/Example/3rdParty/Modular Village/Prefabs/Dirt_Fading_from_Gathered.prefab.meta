@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e4dfaf84d38d29646b10f31926d16e66
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Dirt_Fading_from_Gathered.prefab
+  uploadId: 738645

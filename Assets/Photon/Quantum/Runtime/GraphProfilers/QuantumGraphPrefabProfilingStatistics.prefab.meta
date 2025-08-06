@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 79c7ffae163c8dc40b2032f2c7a8c524
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Runtime/GraphProfilers/QuantumGraphPrefabProfilingStatistics.prefab
+  uploadId: 738645

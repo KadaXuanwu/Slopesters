@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6ba64d73e855d72498b4a85adc9f2443
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Prop_Docks_Steps.prefab
+  uploadId: 738645

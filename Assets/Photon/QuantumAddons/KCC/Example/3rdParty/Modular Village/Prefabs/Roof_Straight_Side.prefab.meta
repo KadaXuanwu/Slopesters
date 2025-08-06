@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 58b293022b1fab0498af4133946a314e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Roof_Straight_Side.prefab
+  uploadId: 738645

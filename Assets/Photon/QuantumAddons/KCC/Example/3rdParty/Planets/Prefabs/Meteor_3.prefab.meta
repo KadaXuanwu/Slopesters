@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8c0b7a71d04decd43a3b1277f922c0a5
+timeCreated: 1512245137
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Planets/Prefabs/Meteor_3.prefab
+  uploadId: 738645

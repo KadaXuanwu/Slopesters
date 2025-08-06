@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a45f5d0aaa69ee84a8df952f3b21847a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cliff_Prop_Bridge_Rope_Middle_Support.prefab
+  uploadId: 738645

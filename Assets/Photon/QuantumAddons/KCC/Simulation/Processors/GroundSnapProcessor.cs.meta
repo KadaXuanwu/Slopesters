@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6a6c0cda899f44fba05902e2894323e2
+timeCreated: 1711031665
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Simulation/Processors/GroundSnapProcessor.cs
+  uploadId: 738645

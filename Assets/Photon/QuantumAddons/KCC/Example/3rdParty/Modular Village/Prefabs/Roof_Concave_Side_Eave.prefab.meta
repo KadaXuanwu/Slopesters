@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b67a55e867a8a0843820733536b02367
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Roof_Concave_Side_Eave.prefab
+  uploadId: 738645

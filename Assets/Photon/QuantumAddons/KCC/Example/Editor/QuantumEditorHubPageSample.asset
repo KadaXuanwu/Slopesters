@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6d489b8b120814494767c896407cba, type: 3}
+  m_Name: QuantumEditorHubPageSample
+  m_EditorClassIdentifier: 
+  Content:
+  - Title: KCC 3D Sample
+    Description: KCC 3D Sample - Getting Started
+    Icon: {fileID: 2800000, guid: 24a22d21fe312f44892796563f01c302, type: 3}
+    InsertPageAnchor: 2
+    InsertPageReference: Welcome
+    PopupOncePlayerPrefsKey: Quantum.Hub.KCCAddon
+    Elements:
+    - Text: 'The KCC is a 3D kinematic character controller addon with strong focus
+        on player movement and interactions with the game world. It utilizes state-of-the-art
+        techniques to ensure exceptional, butter-smooth gaming experience to your
+        players.
+
+        It also provides some level of customization, allowing
+        you to create the perfect character control system tailored to your game''s
+        needs, with great performance and efficiency without compromising on quality.'
+      Subtext: 
+      WidgetMode:
+        Value: Text
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: None
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: e518b63a-82a6-426a-8aac-62c49bb96f22
+      StepElements: []
+    - Text: KCC 3D Online Documentation
+      Subtext: Opens Web Browser
+      WidgetMode:
+        Value: LinkButton
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: None
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 2800000, guid: 48362b7bdabe49d4b93c092e53f3c269, type: 3}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: https://doc.photonengine.com/quantum/current/addons/kcc/sample-project
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: 1c5b076a-6aa8-4afe-915b-89a7c9b833c7
+      StepElements: []
+    - Text: Click through the following steps to explore the sample local and online
+        modes.
+      Subtext: 
+      WidgetMode:
+        Value: Text
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: None
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: 1c5b076a-6aa8-4afe-915b-89a7c9b833c7
+      StepElements: []
+    - Text: Load and run the KCC gameplay scene directly and test the gameplay offline.
+      Subtext: 
+      WidgetMode:
+        Value: Step
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: None
+      Scene: 
+      AddSceneToTop: 1
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: 457870e2-d5b3-4553-af91-0f7a2b69f04b
+      StepElements:
+      - Text: Play the offline game
+        Subtext: Load the gameplay scene and play the game offline
+        WidgetMode:
+          Value: SceneButton
+        AutoComplete:
+          Value: ButtonClicked
+        Hide:
+          Value: None
+        Scene: Assets/Photon/QuantumAddons/KCC/Example/Scenes/Playground.unity
+        AddSceneToTop: 0
+        Icon: {fileID: 2800000, guid: 24a22d21fe312f44892796563f01c302, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 1
+        Url: 
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 78fe0be3-2c37-482e-a5fc-1b558625422f
+    - Text: Register to a Photon account on our website and create an AppId to run
+        online games.
+      Subtext: 
+      WidgetMode:
+        Value: Step
+      AutoComplete:
+        Value: AppIdCreated
+      Hide:
+        Value: None
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: cbe82651-760f-46ef-9dde-44f524a3ea2f
+      StepElements:
+      - Text: "<b>A Quantum 3 AppId is required to connect to the Quantum public
+          cloud:</b>\r\n  - Open the Photon Dashboard link log in or register an
+          account.\r\n  - Select an existing Quantum 3 AppId or create a new one.\r\n 
+          - Copy the App Id and paste into the field below."
+        Subtext: 
+        WidgetMode:
+          Value: Text
+        AutoComplete:
+          Value: None
+        Hide:
+          Value: None
+        Scene: 
+        AddSceneToTop: 0
+        Icon: {fileID: 0}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 0
+        Url: 
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 7376aba9-55ea-4c23-af28-8a0ffbbc505c
+      - Text: Photon Dashboard (Opens Web Browser)
+        Subtext: Register a Photon account and create free AppIds
+        WidgetMode:
+          Value: LinkButton
+        AutoComplete:
+          Value: 
+        Hide:
+          Value: 
+        Scene: 
+        AddSceneToTop: 0
+        Icon: {fileID: 2800000, guid: 48362b7bdabe49d4b93c092e53f3c269, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 0
+        Url: https://dashboard.photonengine.com
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 7a474921-f416-41f2-9fdc-d98be73fefbe
+      - Text: 
+        Subtext: 
+        WidgetMode:
+          Value: AppIdBox
+        AutoComplete:
+          Value: 
+        Hide:
+          Value: 
+        Scene: 
+        AddSceneToTop: 0
+        Icon: {fileID: 0}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 0
+        Url: 
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: d686fb1b-d20b-429c-a42b-a29c850a45e0
+    - Text: Load and run the online menu scene, press QUICK PLAY to enter the Photon
+        random matchmaking to connect and play the game online.
+      Subtext: 
+      WidgetMode:
+        Value: Step
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: Unity6Later
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: 1c5b076a-6aa8-4afe-915b-89a7c9b833c7
+      StepElements:
+      - Text: Load and run the online game scene
+        Subtext: Opens the menu scene to join a multiplayer game
+        WidgetMode:
+          Value: SceneButton
+        AutoComplete:
+          Value: ButtonClicked
+        Hide:
+          Value: None
+        Scene: Assets/Photon/QuantumAddons/KCC/Example/Scenes/Menu.unity
+        AddSceneToTop: 1
+        Icon: {fileID: 2800000, guid: 24a22d21fe312f44892796563f01c302, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 1
+        Url: 
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: f1a85fbe-3bd0-44e0-a69b-67d701f0b3e2
+    - Text: Run multiple clients online in the Editor using Unity Multiplayer Play
+        Mode.
+      Subtext: 
+      WidgetMode:
+        Value: Step
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: Unity6Before
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: 1c5b076a-6aa8-4afe-915b-89a7c9b833c7
+      StepElements:
+      - Text: Add Multiplayer Play Mode package
+        Subtext: Installs the <i>com.unity.multiplayer.playmode</i> Unity package
+        WidgetMode:
+          Value: AddUPMPackage
+        AutoComplete:
+          Value: PackageInstalledMppm
+        Hide:
+          Value: None
+        Scene: 
+        AddSceneToTop: 0
+        Icon: {fileID: 2800000, guid: 59dd7d4958621e649942f3cc5d3ae93f, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 0
+        Url: com.unity.multiplayer.playmode
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 
+      - Text: Open the Multiplayer Play Mode window
+        Subtext: And toggle on at least one additional <b>Virtual Player</b>
+        WidgetMode:
+          Value: ExecuteMenuItem
+        AutoComplete:
+          Value: ButtonClicked
+        Hide:
+          Value: None
+        Scene: 
+        AddSceneToTop: 0
+        Icon: {fileID: 2800000, guid: 80faca055f57d5b449f78efe31607c57, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 0
+        Url: Window/Multiplayer/Multiplayer Play Mode
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 
+      - Text: Load and run the menu scene
+        Subtext: Then press <b>QUICK PLAY</b> on the main viewer to start both online
+          games at once.
+        WidgetMode:
+          Value: SceneButton
+        AutoComplete:
+          Value: ButtonClicked
+        Hide:
+          Value: None
+        Scene: Assets/Photon/QuantumAddons/KCC/Example/Scenes/Menu.unity
+        AddSceneToTop: 1
+        Icon: {fileID: 2800000, guid: 24a22d21fe312f44892796563f01c302, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 1
+        Url: 
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 
+    - Text: 'Continue with creating your own characters backed by the Quantum 3D
+        KCC Addon. Read the online documentation for more tutorials. '
+      Subtext: 
+      WidgetMode:
+        Value: Step
+      AutoComplete:
+        Value: None
+      Hide:
+        Value: None
+      Scene: 
+      AddSceneToTop: 0
+      Icon: {fileID: 0}
+      StatusIcon: {fileID: 0}
+      StartPlayMode: 0
+      Url: 
+      Type:
+        AssetObject: 
+        ScriptableObject: 
+        MonoBehaviour: 
+        Class: 
+      Asset: {fileID: 0}
+      Id: 1c5b076a-6aa8-4afe-915b-89a7c9b833c7
+      StepElements:
+      - Text: ' KCC 3D Getting Started Online Documentation'
+        Subtext: Opens Web Browser
+        WidgetMode:
+          Value: LinkButton
+        AutoComplete:
+          Value: ButtonClicked
+        Hide:
+          Value: None
+        Scene: 
+        AddSceneToTop: 0
+        Icon: {fileID: 2800000, guid: 48362b7bdabe49d4b93c092e53f3c269, type: 3}
+        StatusIcon: {fileID: 0}
+        StartPlayMode: 0
+        Url: https://doc.photonengine.com/quantum/current/addons/kcc/getting-started
+        Type:
+          AssetObject: 
+          ScriptableObject: 
+          MonoBehaviour: 
+          Class: 
+        Asset: {fileID: 0}
+        Id: 

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2002d4f4e275734408aa64867dcb97be
+timeCreated: 1512245130
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Planets/Prefabs/Planet_1.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c8df59f60e16ea54ea12d831cf8deabc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Prefabs/Environment/Stairs_02_Mesh.prefab
+  uploadId: 738645

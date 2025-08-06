@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5ff7828eef40d64bb3d072682140d70
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Prop_Tree_Cedar_2.prefab
+  uploadId: 738645

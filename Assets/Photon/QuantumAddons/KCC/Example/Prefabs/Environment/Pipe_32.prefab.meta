@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dbd587207ab89d45bbb2b653a36f273
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Prefabs/Environment/Pipe_32.prefab
+  uploadId: 738645

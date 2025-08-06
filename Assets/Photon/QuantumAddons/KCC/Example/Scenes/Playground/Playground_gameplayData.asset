@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416bcffcf17e4d65b745d1e30d957b8c, type: 3}
+  m_Name: Playground_gameplayData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: Photon/QuantumAddons/KCC/Example/Scenes/Playground/Playground_gameplayData
+    Guid:
+      Value: 310329144031793406
+  SpawnPoints:
+  - Position:
+      X:
+        RawValue: -678297
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -737280
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+  - Position:
+      X:
+        RawValue: -317849
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -737280
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+  - Position:
+      X:
+        RawValue: 298844
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -737280
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+  - Position:
+      X:
+        RawValue: -47841
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -737280
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+  - Position:
+      X:
+        RawValue: 607518
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -737280
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+  Waypoints:
+  - Position:
+      X:
+        RawValue: 543948
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 216268
+  - Position:
+      X:
+        RawValue: -2260992
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -1454899
+  - Position:
+      X:
+        RawValue: -1933312
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -2929459
+  - Position:
+      X:
+        RawValue: -1671168
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 2005401
+  - Position:
+      X:
+        RawValue: 2247884
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -1159987
+  - Position:
+      X:
+        RawValue: 2223636
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -3416391
+  - Position:
+      X:
+        RawValue: -399114
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -3780771
+  - Position:
+      X:
+        RawValue: 766771
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: -2529689

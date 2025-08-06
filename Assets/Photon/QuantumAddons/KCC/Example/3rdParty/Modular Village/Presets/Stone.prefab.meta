@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0f033ca4bb0ba1b41824277deb053733
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Presets/Stone.prefab
+  uploadId: 738645

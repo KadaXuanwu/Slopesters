@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a62d2d948c9ecaf44933b46f3cace5d7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumMenu/Runtime/RuntimeAssets/QuantumMenuFieldInput.prefab
+  uploadId: 738645

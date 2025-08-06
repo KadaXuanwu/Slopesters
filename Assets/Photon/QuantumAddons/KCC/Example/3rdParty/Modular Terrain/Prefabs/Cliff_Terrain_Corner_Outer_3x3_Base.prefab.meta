@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ec543eb1c30740468a1cc6da34a167e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cliff_Terrain_Corner_Outer_3x3_Base.prefab
+  uploadId: 738645

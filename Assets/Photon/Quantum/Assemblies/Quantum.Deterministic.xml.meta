@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 00acf0935316bfa42b8711979f8f1a4d
+labels:
+- QuantumCodeDoc
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Assemblies/Quantum.Deterministic.xml
+  uploadId: 738645

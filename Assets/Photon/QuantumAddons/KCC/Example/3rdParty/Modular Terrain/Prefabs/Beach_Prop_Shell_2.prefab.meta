@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b46066184bc31814eba6b389d70db71b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Prop_Shell_2.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa09a493479f4bb44b8f4085a0ba491c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cliff_Terrain_Waterfall_Mid.prefab
+  uploadId: 738645

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6a6d47a2022a2e74fad3fe68c4526d9e
+labels:
+- QuantumAsset
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/SimpleMoveProcessor.asset
+  uploadId: 738645

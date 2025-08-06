@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f569c9d99fa9b25448a269734cc1f008
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Terrain_Water_Slope.prefab
+  uploadId: 738645

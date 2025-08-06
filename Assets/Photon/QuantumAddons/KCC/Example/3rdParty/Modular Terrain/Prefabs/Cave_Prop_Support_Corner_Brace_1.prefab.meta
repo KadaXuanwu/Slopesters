@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75e34bad5b77130428b98260da2d0b18
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Prop_Support_Corner_Brace_1.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d2a53b407d81e5b458122758c4a1906e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Dirt_Gathered_Straight.prefab
+  uploadId: 738645

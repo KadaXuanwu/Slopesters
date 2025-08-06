@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2ae43a1046214b73b07e646671227f18
+timeCreated: 1712591773
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Scripts/View/Input/InputAccumulation/Vector2Accumulator.cs
+  uploadId: 738645

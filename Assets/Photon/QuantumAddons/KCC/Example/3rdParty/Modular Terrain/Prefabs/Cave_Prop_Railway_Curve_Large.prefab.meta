@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 50454e4bceaeeff4da890de47ea73641
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Prop_Railway_Curve_Large.prefab
+  uploadId: 738645

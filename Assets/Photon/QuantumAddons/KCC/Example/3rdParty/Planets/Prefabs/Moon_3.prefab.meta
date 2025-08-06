@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dfa8cb0f2585f38468c9adec0b29173b
+timeCreated: 1512245132
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Planets/Prefabs/Moon_3.prefab
+  uploadId: 738645

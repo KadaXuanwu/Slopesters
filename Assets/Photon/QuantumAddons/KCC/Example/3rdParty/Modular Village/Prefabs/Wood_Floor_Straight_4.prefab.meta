@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3d730e5effcd20f409e3134ee4b98d6f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Wood_Floor_Straight_4.prefab
+  uploadId: 738645

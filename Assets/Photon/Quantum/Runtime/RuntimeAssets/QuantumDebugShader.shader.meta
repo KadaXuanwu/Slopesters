@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 26cf4da638a55554ab2984e0b89142e0
+timeCreated: 1515505797
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Runtime/RuntimeAssets/QuantumDebugShader.shader
+  uploadId: 738645

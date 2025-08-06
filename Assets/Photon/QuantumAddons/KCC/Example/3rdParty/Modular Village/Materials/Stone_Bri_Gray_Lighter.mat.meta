@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 910e44d5d28f94b40aa7d2abcaab9632
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Materials/Stone_Bri_Gray_Lighter.mat
+  uploadId: 738645

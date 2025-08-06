@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20924c00be134174a977b83a6f17d4f4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Wood_Floor_Corner.prefab
+  uploadId: 738645

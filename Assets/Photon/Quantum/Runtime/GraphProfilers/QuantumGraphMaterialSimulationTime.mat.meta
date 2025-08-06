@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9dca575ef0405c04f9d9e2e695f8a1b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Runtime/GraphProfilers/QuantumGraphMaterialSimulationTime.mat
+  uploadId: 738645

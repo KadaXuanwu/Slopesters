@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6b2a6949ad4dbbc4aa82994600c67a77
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Prop_Starfish_1.prefab
+  uploadId: 738645

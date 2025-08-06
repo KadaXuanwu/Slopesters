@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d289744abc3b6a94cbd80668d918b112
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Modules/Pier_Bridge.prefab
+  uploadId: 738645

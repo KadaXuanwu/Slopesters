@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 07e238266b8b0894ca9d5ac61a019e40
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Terrain_Side_Incline_Top.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 445c922094720204d9f2e37792a501b8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Prefabs/PenetrationVisualizer.prefab
+  uploadId: 738645

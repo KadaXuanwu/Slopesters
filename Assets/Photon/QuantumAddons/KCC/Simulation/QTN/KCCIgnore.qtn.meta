@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1337ac8f9bd64a5e9c6d940c7b1d254b
+timeCreated: 1711380976
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Simulation/QTN/KCCIgnore.qtn
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 76ce1459955d2f8409f164815515109e
+AssemblyDefinitionReferenceImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/QuantumUser/View/Quantum.Unity.asmref
+  uploadId: 738645

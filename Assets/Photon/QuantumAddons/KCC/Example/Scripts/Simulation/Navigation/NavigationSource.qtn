@@ -1,0 +1,6 @@
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAddons/KCC/Example/Scripts/View/Generated")]
+component NavigationSource
+{
+    [FreeOnComponentRemoved]
+    list<EntityRef> Targets;
+}

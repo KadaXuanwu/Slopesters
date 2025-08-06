@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3241bc7164d9d594eb8a6b3eaba8f271
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Terrain_Path_Hill_Gentle_Plain_Side.prefab
+  uploadId: 738645

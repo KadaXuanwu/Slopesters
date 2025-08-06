@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8fe7d074333d6048a421e848bbf06ad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Materials/Player/PlayerCapRed.mat
+  uploadId: 738645

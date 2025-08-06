@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d997c2348fe3ad94cb47cec74392cdc3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumMenu/Runtime/RuntimeAssets/QuantumMenuBackgroundScreen.prefab
+  uploadId: 738645

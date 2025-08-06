@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dd72485ffc9527047aaed7957c84255a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Stone_Doorway_Wide_Tall_2.prefab
+  uploadId: 738645

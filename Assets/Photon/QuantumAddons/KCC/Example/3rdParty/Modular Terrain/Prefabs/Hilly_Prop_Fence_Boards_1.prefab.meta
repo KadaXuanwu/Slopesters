@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0892403ab0ae7a043845353c864f6b62
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Prop_Fence_Boards_1.prefab
+  uploadId: 738645

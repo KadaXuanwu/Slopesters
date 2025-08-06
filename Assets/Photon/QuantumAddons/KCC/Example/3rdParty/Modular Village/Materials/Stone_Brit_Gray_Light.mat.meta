@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7644bcd8844b02d43bcb0406e713e342
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Materials/Stone_Brit_Gray_Light.mat
+  uploadId: 738645

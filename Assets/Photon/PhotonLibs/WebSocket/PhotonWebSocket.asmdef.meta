@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a10ff188cbfd201409863c062b118e1d
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 24b1fecac13dd324d94fa80d123eed49
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Cliff_Terrain_Entrance_Round_Top_Center.prefab
+  uploadId: 738645

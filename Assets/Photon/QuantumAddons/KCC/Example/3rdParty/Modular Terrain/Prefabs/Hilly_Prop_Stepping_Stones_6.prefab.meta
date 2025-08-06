@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 34791b79ca11ecc47a4800f6c80f9ff4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Prop_Stepping_Stones_6.prefab
+  uploadId: 738645

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 032b4093087d4836aa0f267c06e2b59f
+timeCreated: 1731603998
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Scripts/Simulation/KCC/PositionOffsetProcessor.cs
+  uploadId: 738645

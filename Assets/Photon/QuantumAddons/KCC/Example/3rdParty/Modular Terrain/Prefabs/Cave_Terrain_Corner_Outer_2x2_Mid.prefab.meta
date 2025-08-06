@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9b39fb7d20130b54b91d357085d0ed27
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Terrain_Corner_Outer_2x2_Mid.prefab
+  uploadId: 738645

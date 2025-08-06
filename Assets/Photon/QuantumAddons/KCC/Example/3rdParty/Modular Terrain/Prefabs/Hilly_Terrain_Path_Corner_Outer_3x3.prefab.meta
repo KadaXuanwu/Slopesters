@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5a56bd8871fc7404eb0a5de85367a184
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Terrain_Path_Corner_Outer_3x3.prefab
+  uploadId: 738645

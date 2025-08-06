@@ -1,0 +1,18 @@
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAddons/KCC/Example/Scripts/View/Generated")]
+component Platform
+{
+    FP              Speed;
+    FP              Delay;
+    EntityRef       Visual;
+    [FreeOnComponentRemoved]
+    list<EntityRef> Waypoints;
+
+    [HideInInspector]
+    FP CurrentDelay;
+    [HideInInspector]
+    FP CurrentDirection;
+    [HideInInspector]
+    int CurrentWaypoint;
+    [HideInInspector]
+    hash_set<EntityRef> Entities;
+}

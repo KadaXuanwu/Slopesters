@@ -1,0 +1,7 @@
+Photon Quantum KCC Sample - Release History
+
+Version 3.0.1
+- Updated KCC Addon to 3.0.1.
+
+Version 3.0.0
+- Initial release.

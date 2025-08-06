@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 083f8378f61c016419aa900b76f96d6b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Kit_Window_Upper_Straight.prefab
+  uploadId: 738645

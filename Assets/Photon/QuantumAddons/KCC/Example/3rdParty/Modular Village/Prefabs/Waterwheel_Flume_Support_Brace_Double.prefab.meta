@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1fbacf8a46683b949b732071475ebea0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Waterwheel_Flume_Support_Brace_Double.prefab
+  uploadId: 738645

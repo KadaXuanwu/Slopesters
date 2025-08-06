@@ -1,0 +1,46 @@
+// 8 bytes total with regular thumbsticks (10 with hi-res)
+input {
+    // d-pad
+    button _left;
+    button _right;
+    button _up;
+    button _down;
+
+    // right buttons
+    button _a;
+    button _b;
+    button _c;
+    button _d;
+    
+    // digital extras (shoulder, select/start)
+    button _l1;
+    button _r1;
+    button _select;
+    button _start;
+    
+    // analog shoulder triggers
+    byte _analogRightTrigger;
+    byte _analogLeftTrigger;
+    
+    // Thumb sticks use a union (questionable due to delta-compression)
+    QuantumThumbSticks ThumbSticks;
+}
+
+[ExcludeFromPrototype]
+union QuantumThumbSticks {
+    QuantumRegularThumbSticks Regular;
+    QuantumHighresThumbSticks HighRes;
+}
+
+[ExcludeFromPrototype]
+struct QuantumRegularThumbSticks {
+    InputDirectionMagnitude _leftThumb;
+    InputDirectionMagnitude _rightThumb;
+}
+
+// alternative for FPS/TPS (more res on right one due to 3d aiming)
+[ExcludeFromPrototype]
+struct QuantumHighresThumbSticks {
+    InputDirectionMagnitude _leftThumb;
+    InputPitchYaw _rightThumb;
+}

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9686f4aef97c7fb409d8dc834dc4001e
+labels:
+- QuantumDefaultGlobal
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 0c1b5134111a460c9bb0f5ec80d3229c, type: 3}
+  Verify: 0
+  LogImportTimes: 0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/QuantumUser/Resources/QuantumUnityDB.qunitydb
+  uploadId: 738645

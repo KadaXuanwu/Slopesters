@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3c616bfa768e2b3409922086672c6956
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Prefabs/PhotonCap.prefab
+  uploadId: 738645

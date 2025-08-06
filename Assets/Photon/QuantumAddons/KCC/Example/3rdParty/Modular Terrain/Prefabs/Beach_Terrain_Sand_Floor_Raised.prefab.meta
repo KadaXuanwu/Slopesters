@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af9c38a6055467247b3a1c0f5574d3b7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Terrain_Sand_Floor_Raised.prefab
+  uploadId: 738645

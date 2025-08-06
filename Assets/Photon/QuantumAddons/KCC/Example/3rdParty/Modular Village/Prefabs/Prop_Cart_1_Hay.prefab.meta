@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89bf5f713fc1dd74da5619721cec3e1b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Prop_Cart_1_Hay.prefab
+  uploadId: 738645

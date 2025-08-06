@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e712ef9a0dc781a41980dae205f319ea
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.prefab
+  uploadId: 738645

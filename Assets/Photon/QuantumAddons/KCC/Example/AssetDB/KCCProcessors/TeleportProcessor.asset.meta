@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f1dbc91786a10574290fbf8ea6e4844e
+labels:
+- QuantumAsset
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/TeleportProcessor.asset
+  uploadId: 738645

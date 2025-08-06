@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 27a8cd4711650c5498bb39f0586f5eae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cliff_Terrain_Side_Mid.prefab
+  uploadId: 738645

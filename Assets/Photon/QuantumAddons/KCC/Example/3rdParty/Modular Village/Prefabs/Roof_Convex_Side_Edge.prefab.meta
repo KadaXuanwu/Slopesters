@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11b544c12ea58a64f978a2ed707b075b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Roof_Convex_Side_Edge.prefab
+  uploadId: 738645

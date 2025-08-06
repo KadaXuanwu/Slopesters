@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e892b316cd7b95a468a44bae596e2792
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Escarpment_Terrain_Hill_Crest_Top.prefab
+  uploadId: 738645

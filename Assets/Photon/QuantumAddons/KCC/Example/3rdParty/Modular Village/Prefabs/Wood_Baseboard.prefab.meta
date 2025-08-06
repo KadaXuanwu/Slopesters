@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f7bc2feae0583ec419657e21c96ed8b0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Wood_Baseboard.prefab
+  uploadId: 738645

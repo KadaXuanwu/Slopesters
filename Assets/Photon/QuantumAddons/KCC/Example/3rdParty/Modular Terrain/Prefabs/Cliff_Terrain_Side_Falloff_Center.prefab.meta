@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4fd50b468a1c00438703a8ef20babea
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cliff_Terrain_Side_Falloff_Center.prefab
+  uploadId: 738645

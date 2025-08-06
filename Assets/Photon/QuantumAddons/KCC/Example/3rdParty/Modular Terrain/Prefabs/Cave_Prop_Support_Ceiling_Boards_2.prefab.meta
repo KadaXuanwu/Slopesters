@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c85c8b30c335c2241bb71eaa500711d6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Prop_Support_Ceiling_Boards_2.prefab
+  uploadId: 738645

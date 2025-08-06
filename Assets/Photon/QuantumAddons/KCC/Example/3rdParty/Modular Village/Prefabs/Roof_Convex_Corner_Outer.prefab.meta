@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8bc4867b2f2446b43b6c60f35b346f2e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Roof_Convex_Corner_Outer.prefab
+  uploadId: 738645

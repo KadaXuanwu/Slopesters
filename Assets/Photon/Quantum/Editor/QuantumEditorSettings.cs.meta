@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 3e31f72e4c99a364189783be71ef7a2e
+timeCreated: 1536851982
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Editor/QuantumEditorSettings.cs
+  uploadId: 738645

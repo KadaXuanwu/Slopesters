@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6a3407c4f7fd0bf4c805282d3b0ced2b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Terrain_Sand_Transition_Gentle_Sharp_Centered.prefab
+  uploadId: 738645

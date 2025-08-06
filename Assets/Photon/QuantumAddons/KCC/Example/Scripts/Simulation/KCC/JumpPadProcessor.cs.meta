@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b481c3c9856b46baa09917fb92bc984a
+timeCreated: 1713861246
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Scripts/Simulation/KCC/JumpPadProcessor.cs
+  uploadId: 738645

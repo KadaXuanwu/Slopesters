@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f1fbff15f8ad741419d84ac20f53db4b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Prop_Crate_1.prefab
+  uploadId: 738645

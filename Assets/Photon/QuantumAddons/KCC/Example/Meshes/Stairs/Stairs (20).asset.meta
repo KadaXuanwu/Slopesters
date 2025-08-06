@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e91cb3317e25fd4082f3fe72403b7b3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Meshes/Stairs/Stairs (20).asset
+  uploadId: 738645

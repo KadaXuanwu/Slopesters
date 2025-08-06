@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78faac14bcae7cb43b4c4819df1bb4b8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Presets/Terrain_Cliff.prefab
+  uploadId: 738645

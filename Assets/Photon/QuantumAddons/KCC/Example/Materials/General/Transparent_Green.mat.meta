@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3538ae5a603743148842260638f52cfb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Materials/General/Transparent_Green.mat
+  uploadId: 738645

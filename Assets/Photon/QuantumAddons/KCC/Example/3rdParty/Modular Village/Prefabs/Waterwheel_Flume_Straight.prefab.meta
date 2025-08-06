@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af2afa4470d1020478866efa03db3883
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Waterwheel_Flume_Straight.prefab
+  uploadId: 738645

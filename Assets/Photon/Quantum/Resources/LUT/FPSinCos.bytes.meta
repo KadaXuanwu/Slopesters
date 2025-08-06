@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 957e874da6f980e47ba1b834471301ce
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Resources/LUT/FPSinCos.bytes
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e9a24a2e847727a4b826cfa731da6e66
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.prefab
+  uploadId: 738645

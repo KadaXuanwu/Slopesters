@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 40bc2861e5e6ae64a9c1b4326f1790e4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Prop_Bridge_Log_Post_Top.prefab
+  uploadId: 738645

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7c585fb71b870c3419d008fe56a7e3d0
+timeCreated: 1533894663
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/Quantum/Runtime/QuantumStaticSphereCollider3D.cs
+  uploadId: 738645

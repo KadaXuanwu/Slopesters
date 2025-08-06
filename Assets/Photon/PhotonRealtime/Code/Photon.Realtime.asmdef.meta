@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 831409e8f9d13b5479a3baef9822ad34
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/PhotonRealtime/Code/Photon.Realtime.asmdef
+  uploadId: 738645

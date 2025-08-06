@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cf80629768e8f474396ce3bccbbdf4f1
+labels:
+- QuantumAsset
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Scenes/Playground/Playground_mesh.asset
+  uploadId: 738645

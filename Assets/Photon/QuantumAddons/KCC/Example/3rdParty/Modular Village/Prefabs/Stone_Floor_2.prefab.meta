@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 355737a0372c8084ab5f29c2f6f8e6ec
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Stone_Floor_2.prefab
+  uploadId: 738645

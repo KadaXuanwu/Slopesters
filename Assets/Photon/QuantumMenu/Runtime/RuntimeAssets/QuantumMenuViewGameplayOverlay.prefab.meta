@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 83324800691fbbd43bc5a978d6df0475
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumMenu/Runtime/RuntimeAssets/QuantumMenuViewGameplayOverlay.prefab
+  uploadId: 738645

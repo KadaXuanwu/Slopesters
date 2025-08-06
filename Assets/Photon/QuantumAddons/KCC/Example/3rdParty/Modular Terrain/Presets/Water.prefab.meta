@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6acc1a6593d76c247a16ff57e5a1aad7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Presets/Water.prefab
+  uploadId: 738645

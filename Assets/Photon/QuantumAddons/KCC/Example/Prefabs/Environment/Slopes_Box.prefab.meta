@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b3cb4c846c9284848b6f41aae5303875
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/Prefabs/Environment/Slopes_Box.prefab
+  uploadId: 738645

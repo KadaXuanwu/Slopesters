@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78fd5eda8d55fbb4fa975243aa1f4ee2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Wall_Prop_Door_Ornate.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3787cb0e20b25e04f957a32b6978d410
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Stucco_Arch_Half.prefab
+  uploadId: 738645

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a4a3308b4ed44f4a8f8e4b8a90b2688
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Materials/Shell_-_Lightest.mat
+  uploadId: 738645

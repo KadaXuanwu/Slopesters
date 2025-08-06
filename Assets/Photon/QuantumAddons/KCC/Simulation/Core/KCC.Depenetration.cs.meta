@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 194008a49c9647de9bf7a676530e4897
+timeCreated: 1710852181
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Simulation/Core/KCC.Depenetration.cs
+  uploadId: 738645

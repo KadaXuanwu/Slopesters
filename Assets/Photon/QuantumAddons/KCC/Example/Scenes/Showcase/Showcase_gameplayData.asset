@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416bcffcf17e4d65b745d1e30d957b8c, type: 3}
+  m_Name: Showcase_gameplayData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: Photon/QuantumAddons/KCC/Example/Scenes/Showcase/Showcase_gameplayData
+    Guid:
+      Value: 536510295700089179
+  SpawnPoints:
+  - Position:
+      X:
+        RawValue: -2465792
+      Y:
+        RawValue: 825753
+      Z:
+        RawValue: -5447680
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 32768
+      Z:
+        RawValue: 0
+      W:
+        RawValue: -56755
+  - Position:
+      X:
+        RawValue: -4530176
+      Y:
+        RawValue: 825753
+      Z:
+        RawValue: -5734400
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 7986
+      Z:
+        RawValue: 0
+      W:
+        RawValue: -65047
+  - Position:
+      X:
+        RawValue: -7397376
+      Y:
+        RawValue: 688128
+      Z:
+        RawValue: -4874240
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 46340
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 46340
+  - Position:
+      X:
+        RawValue: -4530176
+      Y:
+        RawValue: 825753
+      Z:
+        RawValue: -2924544
+    Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 64540
+      Z:
+        RawValue: 0
+      W:
+        RawValue: -11380
+  Waypoints: []

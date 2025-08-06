@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b7b2ab97956772d48bbfca441f545905
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Stucco_Window_Double_Narrow_Tall.prefab
+  uploadId: 738645

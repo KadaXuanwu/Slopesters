@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2da789024bab741498da948e1b1213ae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Canopy_Ramp_Corner.prefab
+  uploadId: 738645

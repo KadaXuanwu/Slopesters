@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3125c1d5cbedbfa4eb48a89d5dd1866e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.prefab
+  uploadId: 738645

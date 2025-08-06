@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3cc2fb1bf19f6154ab219b7c1661f8b6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Roof_Accent_Ridge.prefab
+  uploadId: 738645

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1cba120bf04ac0846b420384a6a4a258
+labels:
+- QuantumAsset
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/AssetDB/Entities/FirstPersonPlayer.prefab
+  uploadId: 738645

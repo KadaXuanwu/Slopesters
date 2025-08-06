@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4f4eabed11e7a9428fc8a423b02eb75
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Materials/Cedar_Leaves.mat
+  uploadId: 738645

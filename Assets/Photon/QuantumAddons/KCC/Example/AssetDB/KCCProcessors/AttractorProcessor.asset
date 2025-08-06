@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f973c4050674cf6bc40a255296f0049, type: 3}
+  m_Name: AttractorProcessor
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/AttractorProcessor
+    Guid:
+      Value: 342885703313632886
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 1450
+    - RawValue: 8433
+    - RawValue: 14972
+    - RawValue: 21073
+    - RawValue: 26745
+    - RawValue: 31996
+    - RawValue: 36832
+    - RawValue: 41263
+    - RawValue: 45295
+    - RawValue: 48935
+    - RawValue: 52193
+    - RawValue: 55075
+    - RawValue: 57590
+    - RawValue: 59744
+    - RawValue: 61546
+    - RawValue: 63002
+    - RawValue: 64122
+    - RawValue: 64912
+    - RawValue: 65381
+    - RawValue: 65536
+    PreWrapMode: 0
+    PostWrapMode: 0
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 8
+    OriginalPostWrapMode: 8
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 26214
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 233554
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Force:
+    RawValue: 13107200

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f12e00b8bd65b3e438ab614b9cff3964
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Prop_Support_Wall_Pillar_3.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b989ba5e2d96b049ac270fb12fb24fa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Terrain_Hill_Side_Sharp.prefab
+  uploadId: 738645

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a6c1536eae896c45a5d06c2087407fe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Prop_Lamp_Street.prefab
+  uploadId: 738645

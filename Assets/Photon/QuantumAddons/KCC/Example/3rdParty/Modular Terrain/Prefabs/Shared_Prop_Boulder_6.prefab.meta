@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b2f50b1ec28a5b0469cef7c8c0628d13
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Shared_Prop_Boulder_6.prefab
+  uploadId: 738645

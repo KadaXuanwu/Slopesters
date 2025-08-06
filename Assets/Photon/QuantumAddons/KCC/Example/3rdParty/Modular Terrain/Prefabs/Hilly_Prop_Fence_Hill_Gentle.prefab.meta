@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de01b44eb991ceb4bbf1929b690e4f89
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Hilly_Prop_Fence_Hill_Gentle.prefab
+  uploadId: 738645

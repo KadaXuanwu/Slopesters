@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d024689a1ed4f0f479be09fab9ec5fec
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Modules/Pier_Pillar.prefab
+  uploadId: 738645

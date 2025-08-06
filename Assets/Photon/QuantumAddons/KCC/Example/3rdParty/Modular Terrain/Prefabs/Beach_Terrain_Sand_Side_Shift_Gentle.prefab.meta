@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5c04b03c72907064b95aae40df58a5f0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Terrain_Sand_Side_Shift_Gentle.prefab
+  uploadId: 738645

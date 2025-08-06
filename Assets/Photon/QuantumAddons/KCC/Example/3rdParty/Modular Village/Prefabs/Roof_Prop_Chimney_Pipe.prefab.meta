@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4caeeb36f411b54ea62e8ea9a751bef
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Roof_Prop_Chimney_Pipe.prefab
+  uploadId: 738645

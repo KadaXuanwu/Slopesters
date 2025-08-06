@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b77c8ac81d8f9a7429419d0906c42a49
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Escarpment_Terrain_Corner_Outer_3x3_Top.prefab
+  uploadId: 738645

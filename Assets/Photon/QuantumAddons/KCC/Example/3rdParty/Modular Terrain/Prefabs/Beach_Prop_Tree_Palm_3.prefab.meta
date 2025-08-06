@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: efdd422a2f822bd488079b2f35a0b2d4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Beach_Prop_Tree_Palm_3.prefab
+  uploadId: 738645

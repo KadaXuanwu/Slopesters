@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b348a8113b3ead841b5fad64ea45d8c9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Village/Prefabs/Prop_Barrel_1.prefab
+  uploadId: 738645

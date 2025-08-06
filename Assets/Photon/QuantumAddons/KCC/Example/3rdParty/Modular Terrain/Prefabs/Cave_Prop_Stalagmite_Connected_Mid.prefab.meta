@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dd8b05bb1b52ce540a7178b15f2e6005
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308136
+  packageName: Photon Quantum KCC 3D - Kinematic Character Controller
+  packageVersion: 1.0
+  assetPath: Assets/Photon/QuantumAddons/KCC/Example/3rdParty/Modular Terrain/Prefabs/Cave_Prop_Stalagmite_Connected_Mid.prefab
+  uploadId: 738645
