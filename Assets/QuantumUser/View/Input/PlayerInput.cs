@@ -1,18 +1,15 @@
 namespace Quantum
 {
 	using UnityEngine;
+	using UnityEngine.InputSystem;
 	using Photon.Deterministic;
 
 	/// <summary>
-	/// Handles player input.
+	/// Handles player input with new Input System.
 	/// </summary>
 	[DefaultExecutionOrder(-10)]
 	public sealed class PlayerInput : MonoBehaviour
 	{
-		/// <summary>
-		/// This is a special accumulator which accepts mouse/touch delta and returns smoothed,
-		/// frame-aligned look rotation delta. It is essential to get super snappy butter-smooth experience.
-		/// </summary>
 		private Vector2Accumulator _lookRotationAccumulator = new Vector2Accumulator(0.02f, true);
 
 		private BasePlayerInput _accumulatedInput;
@@ -25,33 +22,51 @@ namespace Quantum
 		private bool            _jumpTouch;
 		private float           _jumpTime;
 
-		/// <summary>
-		/// This method returns any pending look rotation delta ahead of predicted frame. Takes into account Local Input Offset and render-aligned accumulations.
-		/// </summary>
+		// New Input System references
+		private InputSystem_Actions _inputActions;
+		private Vector2 _moveInput;
+		private Vector2 _lookInput;
+		private bool _jumpInput;
+		private bool _isCursorLocked = true;
+
 		public Vector2 GetPendingLookRotationDelta(QuantumGame game)
 		{
 			Vector2 pendingLookRotationDelta = default;
 
 			for (int i = 0; i < game.Session.LocalInputOffset; ++i)
 			{
-				// To get responsive look rotation, we need to apply all pending inputs ahead of predicted tick => these can be delayed by local input offset.
-				// For example if the LocalInputOffset == 2, PredictedFrame.Number == 100, inputs for ticks 101 and 102 are already polled and we should apply them as well.
 				BasePlayerInput polledInput = GetInputForFrame(game.Frames.Predicted.Number + i + 1);
 				pendingLookRotationDelta.x += polledInput.LookRotationDelta.X.AsFloat;
 				pendingLookRotationDelta.y += polledInput.LookRotationDelta.Y.AsFloat;
 			}
 
-			// The simulation runs with a fixed tick rate which is not aligned with render rate.
-			// For local player we also need to add look rotation accumulated since last fixed update to get super smooth look.
-			// The _lookRotationAccumulator contains remaining delta since last polled input (which is always simulation tick aligned).
 			pendingLookRotationDelta.x += _lookRotationAccumulator.AccumulatedValue.x;
 			pendingLookRotationDelta.y += _lookRotationAccumulator.AccumulatedValue.y;
 
 			return pendingLookRotationDelta;
 		}
 
+		private void Awake()
+		{
+			_inputActions = new InputSystem_Actions();
+			
+			// Subscribe to input events
+			_inputActions.Player.Move.performed += ctx => _moveInput = ctx.ReadValue<Vector2>();
+			_inputActions.Player.Move.canceled += ctx => _moveInput = Vector2.zero;
+			
+			_inputActions.Player.Look.performed += ctx => _lookInput = ctx.ReadValue<Vector2>();
+			_inputActions.Player.Look.canceled += ctx => _lookInput = Vector2.zero;
+			
+			_inputActions.Player.Jump.performed += ctx => _jumpInput = true;
+			_inputActions.Player.Jump.canceled += ctx => _jumpInput = false;
+			
+			_inputActions.Player.ToggleCursor.performed += ctx => ToggleCursorLock();
+		}
+
 		private void OnEnable()
 		{
+			_inputActions?.Enable();
+			
 			QuantumCallback.Subscribe(this, (CallbackPollInput callback) => PollInput(callback));
 
 			_inputTouches.TouchStarted  = OnTouchStarted;
@@ -60,20 +75,40 @@ namespace Quantum
 
 		private void OnDisable()
 		{
+			_inputActions?.Disable();
+			
 			_inputTouches.TouchStarted  = null;
 			_inputTouches.TouchFinished = null;
 		}
 
+		private void OnDestroy()
+		{
+			_inputActions?.Dispose();
+		}
+
 		private void Update()
 		{
-			// Accumulate input every frame, even if Quantum doesn't simulate new frames (this happens when rendering rate is faster than Quantum simulation rate).
 			AccumulateInput();
+		}
+
+		private void ToggleCursorLock()
+		{
+			_isCursorLocked = !_isCursorLocked;
+			
+			if (_isCursorLocked)
+			{
+				Cursor.lockState = CursorLockMode.Locked;
+				Cursor.visible = false;
+			}
+			else
+			{
+				Cursor.lockState = CursorLockMode.None;
+				Cursor.visible = true;
+			}
 		}
 
 		private void AccumulateInput()
 		{
-			// The accumulation must be processed once per Unity frame.
-			// This method is triggered from Update() and PollInput() methods.
 			if (_lastAccumulateFrame == Time.frameCount)
 				return;
 
@@ -88,7 +123,6 @@ namespace Quantum
 			if (Application.isMobilePlatform == true && Application.isEditor == false)
 			{
 				_inputTouches.Update();
-
 				ProcessMobileInput();
 			}
 			else
@@ -99,38 +133,19 @@ namespace Quantum
 
 		private void ProcessStandaloneInput()
 		{
-			// Enter key is used for locking/unlocking cursor in game view.
-			if (UnityEngine.Input.GetKeyDown(KeyCode.Return) || UnityEngine.Input.GetKeyDown(KeyCode.KeypadEnter))
-			{
-				if (Cursor.lockState == CursorLockMode.Locked)
-				{
-					Cursor.lockState = CursorLockMode.None;
-					Cursor.visible = true;
-				}
-				else
-				{
-					Cursor.lockState = CursorLockMode.Locked;
-					Cursor.visible = false;
-				}
-			}
-
-			// Accumulate input only if the cursor is locked.
-			if (Cursor.lockState != CursorLockMode.Locked)
+			// Only accumulate input if cursor is locked
+			if (!_isCursorLocked)
 				return;
 
-			Vector2 lookRotationDelta = new Vector2(-UnityEngine.Input.GetAxisRaw("Mouse Y"), UnityEngine.Input.GetAxisRaw("Mouse X"));
-			_lookRotationAccumulator.Accumulate(lookRotationDelta);
+			// Look input - invert Y axis to match legacy behavior
+			Vector2 lookDelta = new Vector2(-_lookInput.y, _lookInput.x);
+			_lookRotationAccumulator.Accumulate(lookDelta);
 
-			Vector2 moveDirection = Vector2.zero;
-
-			if (UnityEngine.Input.GetKey(KeyCode.W)) { moveDirection += Vector2.up;    }
-			if (UnityEngine.Input.GetKey(KeyCode.S)) { moveDirection += Vector2.down;  }
-			if (UnityEngine.Input.GetKey(KeyCode.A)) { moveDirection += Vector2.left;  }
-			if (UnityEngine.Input.GetKey(KeyCode.D)) { moveDirection += Vector2.right; }
-
-			_accumulatedInput.MoveDirection = moveDirection.normalized.ToFPVector2();
-
-			_accumulatedInput.Jump |= UnityEngine.Input.GetKey(KeyCode.Space);
+			// Move input normalized
+			_accumulatedInput.MoveDirection = _moveInput.normalized.ToFPVector2();
+			
+			// Jump input
+			_accumulatedInput.Jump |= _jumpInput;
 		}
 
 		private void ProcessMobileInput()
@@ -141,7 +156,7 @@ namespace Quantum
 			if (_lookTouch != null && _lookTouch.IsActive == true)
 			{
 				lookRotationDelta = new Vector2(-_lookTouch.Delta.Position.y, _lookTouch.Delta.Position.x);
-				lookRotationDelta *= 0.25f; // Sensitivity
+				lookRotationDelta *= 0.1f; // Sensitivity
 			}
 
 			_lookRotationAccumulator.Accumulate(lookRotationDelta);
@@ -190,8 +205,6 @@ namespace Quantum
 
 		private void PollInput(CallbackPollInput callback)
 		{
-			// PollInput() is called before Quantum simulation and before Update().
-			// As a first step, we need to accumulate the input for this Unity frame.
 			AccumulateInput();
 
 			_resetAccumulatedInput = true;
@@ -207,9 +220,6 @@ namespace Quantum
 			callback.SetInput(_accumulatedInput, DeterministicInputFlags.Repeatable);
 		}
 
-		/// <summary>
-		/// Local history of polled inputs. We need this to apply all pending look rotations in case there is an input offset active.
-		/// </summary>
 		private BasePlayerInput GetInputForFrame(int frame)
 		{
 			if (frame <= 0)
