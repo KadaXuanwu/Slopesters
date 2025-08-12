@@ -1,7 +1,0 @@
-[ExcludeFromPrototype]
-struct BasePlayerInput
-{
-    FPVector2 MoveDirection;
-    FPVector2 LookRotationDelta;
-    button    Jump;
-}

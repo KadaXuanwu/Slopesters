@@ -80,7 +80,7 @@ MonoBehaviour:
       DisableFill:
         _value: 0
     DisabledColliders:
-      Enabled: 1
+      Enabled: 0
       Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
       Scale: 0
       OnlyDrawSelected:
@@ -144,7 +144,7 @@ MonoBehaviour:
       DisableFill:
         _value: 0
     PhysicsJoints:
-      Enabled: 1
+      Enabled: 0
       Color: {r: 0.4925605, g: 0.9176471, b: 0.5050631, a: 0.5}
       Scale: 0
       OnlyDrawSelected:
