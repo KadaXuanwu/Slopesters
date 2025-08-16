@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GravityProcessor
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/GravityProcessor
+    Path: QuantumUser/Assets/KCCProcessors/GravityProcessor
     Guid:
       Value: 386252482694963142
   IsMultiplier: 1

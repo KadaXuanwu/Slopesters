@@ -9,10 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf45ecb83b74b9f8c408d33015dfafe, type: 3}
-  m_Name: PlatformProcessor
+  m_Script: {fileID: 11500000, guid: 032b4093087d4836aa0f267c06e2b59f, type: 3}
+  m_Name: PositionOffsetProcessor
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/PlatformProcessor
+    Path: QuantumUser/Assets/KCCProcessors/PositionOffsetProcessor
     Guid:
-      Value: 269747194953974998
+      Value: 301671270979726963
+  PositionOffset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 0
+    Z:
+      RawValue: 0

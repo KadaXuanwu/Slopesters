@@ -56,11 +56,13 @@ namespace Quantum.Prototypes {
     public FPVector2 MoveDirection;
     public FPVector2 LookRotationDelta;
     public Button Jump;
+    public Button Sprint;
     partial void MaterializeUser(Frame frame, ref Quantum.BasePlayerInput result, in PrototypeMaterializationContext context);
     public void Materialize(Frame frame, ref Quantum.BasePlayerInput result, in PrototypeMaterializationContext context = default) {
         result.MoveDirection = this.MoveDirection;
         result.LookRotationDelta = this.LookRotationDelta;
         result.Jump = this.Jump;
+        result.Sprint = this.Sprint;
         MaterializeUser(frame, ref result, in context);
     }
   }
@@ -344,6 +346,8 @@ namespace Quantum.Prototypes {
   [Quantum.Prototypes.Prototype(typeof(Quantum.Player))]
   public unsafe partial class PlayerPrototype : ComponentPrototype<Quantum.Player> {
     public FP JumpForce;
+    public FP WalkSpeed;
+    public FP SprintSpeed;
     [HideInInspector()]
     public PlayerRef PlayerRef;
     partial void MaterializeUser(Frame frame, ref Quantum.Player result, in PrototypeMaterializationContext context);
@@ -354,6 +358,8 @@ namespace Quantum.Prototypes {
     }
     public void Materialize(Frame frame, ref Quantum.Player result, in PrototypeMaterializationContext context = default) {
         result.JumpForce = this.JumpForce;
+        result.WalkSpeed = this.WalkSpeed;
+        result.SprintSpeed = this.SprintSpeed;
         result.PlayerRef = this.PlayerRef;
         MaterializeUser(frame, ref result, in context);
     }

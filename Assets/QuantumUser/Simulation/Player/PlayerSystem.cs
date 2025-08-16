@@ -1,7 +1,8 @@
 namespace Quantum
 {
 	using Photon.Deterministic;
-	using UnityEngine.Scripting;
+    using UnityEngine;
+    using UnityEngine.Scripting;
 
 	/// <summary>
 	/// Player system propagates player input to KCC.

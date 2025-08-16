@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SimpleMoveProcessor
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/SimpleMoveProcessor
+    Path: QuantumUser/Assets/KCCProcessors/SimpleMoveProcessor
     Guid:
       Value: 310584538264590601
   UpGravity:

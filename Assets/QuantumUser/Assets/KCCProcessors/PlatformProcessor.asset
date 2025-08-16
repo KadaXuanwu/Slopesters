@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fae762fbccb4fbf9b07f2c7bbae4284, type: 3}
-  m_Name: TeleportProcessor
+  m_Script: {fileID: 11500000, guid: fbf45ecb83b74b9f8c408d33015dfafe, type: 3}
+  m_Name: PlatformProcessor
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/TeleportProcessor
+    Path: QuantumUser/Assets/KCCProcessors/PlatformProcessor
     Guid:
-      Value: 399115920017571043
-  TeleportOffset:
-    RawValue: 1310720
+      Value: 269747194953974998

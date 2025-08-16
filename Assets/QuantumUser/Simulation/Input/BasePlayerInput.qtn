@@ -4,4 +4,5 @@ struct BasePlayerInput
     FPVector2 MoveDirection;
     FPVector2 LookRotationDelta;
     button    Jump;
+    button    Sprint;
 }

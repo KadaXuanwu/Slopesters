@@ -2,7 +2,9 @@
 component Player
 {
     FP JumpForce;
-
+    FP WalkSpeed;
+    FP SprintSpeed;
+    
     [HideInInspector]
     PlayerRef PlayerRef;
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AttractorProcessor
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/AttractorProcessor
+    Path: QuantumUser/Assets/KCCProcessors/AttractorProcessor
     Guid:
       Value: 342885703313632886
   Curve:

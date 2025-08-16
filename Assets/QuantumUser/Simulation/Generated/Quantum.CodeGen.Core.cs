@@ -540,26 +540,30 @@ namespace Quantum {
   [StructLayout(LayoutKind.Explicit)]
   [ExcludeFromPrototype()]
   public unsafe partial struct BasePlayerInput {
-    public const Int32 SIZE = 48;
+    public const Int32 SIZE = 56;
     public const Int32 ALIGNMENT = 8;
-    [FieldOffset(32)]
+    [FieldOffset(40)]
     public FPVector2 MoveDirection;
-    [FieldOffset(16)]
+    [FieldOffset(24)]
     public FPVector2 LookRotationDelta;
     [FieldOffset(0)]
     public Button Jump;
+    [FieldOffset(12)]
+    public Button Sprint;
     public override Int32 GetHashCode() {
       unchecked { 
         var hash = 463;
         hash = hash * 31 + MoveDirection.GetHashCode();
         hash = hash * 31 + LookRotationDelta.GetHashCode();
         hash = hash * 31 + Jump.GetHashCode();
+        hash = hash * 31 + Sprint.GetHashCode();
         return hash;
       }
     }
     public static void Serialize(void* ptr, FrameSerializer serializer) {
         var p = (BasePlayerInput*)ptr;
         Button.Serialize(&p->Jump, serializer);
+        Button.Serialize(&p->Sprint, serializer);
         FPVector2.Serialize(&p->LookRotationDelta, serializer);
         FPVector2.Serialize(&p->MoveDirection, serializer);
     }
@@ -1438,10 +1442,14 @@ namespace Quantum {
   }
   [StructLayout(LayoutKind.Explicit)]
   public unsafe partial struct Player : Quantum.IComponent {
-    public const Int32 SIZE = 16;
+    public const Int32 SIZE = 32;
     public const Int32 ALIGNMENT = 8;
     [FieldOffset(8)]
     public FP JumpForce;
+    [FieldOffset(24)]
+    public FP WalkSpeed;
+    [FieldOffset(16)]
+    public FP SprintSpeed;
     [FieldOffset(0)]
     [HideInInspector()]
     public PlayerRef PlayerRef;
@@ -1449,6 +1457,8 @@ namespace Quantum {
       unchecked { 
         var hash = 2621;
         hash = hash * 31 + JumpForce.GetHashCode();
+        hash = hash * 31 + WalkSpeed.GetHashCode();
+        hash = hash * 31 + SprintSpeed.GetHashCode();
         hash = hash * 31 + PlayerRef.GetHashCode();
         return hash;
       }
@@ -1457,6 +1467,8 @@ namespace Quantum {
         var p = (Player*)ptr;
         PlayerRef.Serialize(&p->PlayerRef, serializer);
         FP.Serialize(&p->JumpForce, serializer);
+        FP.Serialize(&p->SprintSpeed, serializer);
+        FP.Serialize(&p->WalkSpeed, serializer);
     }
   }
   public static unsafe partial class Constants {

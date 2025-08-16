@@ -27,6 +27,7 @@ namespace Quantum
 		private Vector2 _moveInput;
 		private Vector2 _lookInput;
 		private bool _jumpInput;
+		private bool _sprintInput;
 		private bool _isCursorLocked = true;
 
 		public Vector2 GetPendingLookRotationDelta(QuantumGame game)
@@ -59,6 +60,10 @@ namespace Quantum
 			
 			_inputActions.Player.Jump.performed += ctx => _jumpInput = true;
 			_inputActions.Player.Jump.canceled += ctx => _jumpInput = false;
+			
+			// Add sprint input handling
+			_inputActions.Player.Sprint.performed += ctx => _sprintInput = true;
+			_inputActions.Player.Sprint.canceled += ctx => _sprintInput = false;
 			
 			_inputActions.Player.ToggleCursor.performed += ctx => ToggleCursorLock();
 		}
@@ -143,9 +148,12 @@ namespace Quantum
 
 			// Move input normalized
 			_accumulatedInput.MoveDirection = _moveInput.normalized.ToFPVector2();
-			
+
 			// Jump input
 			_accumulatedInput.Jump |= _jumpInput;
+
+			// Sprint input
+			_accumulatedInput.Sprint |= _sprintInput;
 		}
 
 		private void ProcessMobileInput()
@@ -174,6 +182,8 @@ namespace Quantum
 
 			_accumulatedInput.Jump         |= _jumpTouch;
 			_accumulatedInput.MoveDirection = moveDirection.ToFPVector2();
+			// Note: Sprint on mobile could be implemented with a double-tap or UI button
+			// For now, no sprint on mobile unless you add a UI button
 		}
 
 		private void OnTouchStarted(InputTouch touch)
@@ -209,8 +219,8 @@ namespace Quantum
 
 			_resetAccumulatedInput = true;
 
-			Vector2   consumeLookRotation = _lookRotationAccumulator.ConsumeFrameAligned(callback.Game);
-			FPVector2 pollLookRotation    = BasePlayerInput.GetPollLookRotationDelta(consumeLookRotation.ToFPVector2());
+			Vector2 consumeLookRotation = _lookRotationAccumulator.ConsumeFrameAligned(callback.Game);
+			FPVector2 pollLookRotation = BasePlayerInput.GetPollLookRotationDelta(consumeLookRotation.ToFPVector2());
 
 			_lookRotationAccumulator.Add(consumeLookRotation - pollLookRotation.ToUnityVector2());
 

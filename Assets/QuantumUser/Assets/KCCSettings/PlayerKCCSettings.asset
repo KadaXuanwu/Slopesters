@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerKCCSettings
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCSettings/PlayerKCCSettings
+    Path: QuantumUser/Assets/KCCSettings/PlayerKCCSettings
     Guid:
       Value: 405386417641264021
   Radius:
@@ -36,3 +36,5 @@ MonoBehaviour:
       Value: 340717403632967784
   - Id:
       Value: 301925475738747965
+  - Id:
+      Value: 399433314212343043

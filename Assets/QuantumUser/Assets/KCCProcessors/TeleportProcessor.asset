@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b481c3c9856b46baa09917fb92bc984a, type: 3}
-  m_Name: JumpPadProcessor
+  m_Script: {fileID: 11500000, guid: 4fae762fbccb4fbf9b07f2c7bbae4284, type: 3}
+  m_Name: TeleportProcessor
   m_EditorClassIdentifier: 
   Identifier:
-    Path: Photon/QuantumAddons/KCC/Example/AssetDB/KCCProcessors/JumpPadProcessor
+    Path: QuantumUser/Assets/KCCProcessors/TeleportProcessor
     Guid:
-      Value: 355441157962520448
-  Impulse:
-    RawValue: 1638400
+      Value: 399115920017571043
